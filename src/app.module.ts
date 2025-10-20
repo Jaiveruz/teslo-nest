@@ -25,9 +25,9 @@ import { AuthModule } from './auth/auth.module';
             synchronize: true,
         }),
 
-        ServeStaticModule.forRoot({
-            rootPath: join(__dirname, '..', 'public'),
-        }),     
+        // ServeStaticModule.forRoot({
+        //     rootPath: join(__dirname, '..', 'public'),
+        // }),     
 
         ProductsModule,
 
